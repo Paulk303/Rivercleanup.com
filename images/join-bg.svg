@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#BBDEFB"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  <rect width="1200" height="800" fill="url(#dots)"/>
+  
+  <!-- Decorative waves -->
+  <path d="M0,600 C300,550 600,650 900,600 T1200,600" fill="none" stroke="#E3F2FD" stroke-width="50"/>
+  <path d="M0,650 C300,600 600,700 900,650 T1200,650" fill="none" stroke="#BBDEFB" stroke-width="30"/>
+  <path d="M0,700 C300,650 600,750 900,700 T1200,700" fill="none" stroke="#90CAF9" stroke-width="20"/>
+</svg>
